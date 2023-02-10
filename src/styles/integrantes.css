@@ -1,0 +1,29 @@
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.integrantes__seccion{
+    width: 40rem;
+    border-radius: 2rem;
+}
+.intengrantes__slice{
+    width: 50rem;
+    display: flex;
+    overflow-x: scroll;
+}
+.integrante__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    gap: 2rem;
+}
+.integrante__img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+}

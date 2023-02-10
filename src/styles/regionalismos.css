@@ -1,0 +1,52 @@
+.regionalismos__grid{
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(5, 1fr);
+    gap: 2rem;
+}
+.regionalismos__grid p:nth-child(2){
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.regionalismos__grid p:nth-child(3){
+    grid-column: 3 / 4;
+}
+.regionalismos__grid p:nth-child(4){
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+}
+.regionalismos__grid p:nth-child(5){
+    grid-column: 5 / 6;
+}
+.regionalismos_ejemplo{
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.6rem;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.colima{
+    background-color: var(--colima);
+}
+.oaxaca{
+    background-color: var(--oaxaca);
+}
+.michoacan{
+    background-color: var(--michoacan);
+}
+.zacatecas{
+    background-color: var(--zacatecas);
+}
+.hidalgo{
+    background-color: var(--hidalgo);
+}
+.nuevoLeon{
+    background-color: var(--nuevoLeon);
+}
+.regionalismos__grid .nuevoLeon{
+    color: var(--white);
+}

@@ -1,0 +1,34 @@
+.turismo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.turismo__seccion{
+    width: 40rem;
+}
+.turismo__cards{
+    display: grid;
+    grid: repeat(2, 1fr) / repeat(2, 1fr); 
+    gap: 2rem;
+}
+.turismo__cards div:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.turismo__card{
+    display: flex;
+    gap: 1rem;
+}
+.turismo__contenido{
+    height: 100%;
+}
+.turismo__actividades{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.turismo__img{
+    width: 28rem;
+    border-radius: 3rem;
+}

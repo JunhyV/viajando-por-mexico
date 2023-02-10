@@ -1,0 +1,38 @@
+:root{
+    --colima: orange;
+    --oaxaca: red;
+    --zacatecas: green;
+    --hidalgo: blue;
+    --nuevoLeon: black;
+    --michoacan: pink;
+    --white: #f2f2f2;
+    --black: #353535;
+}
+
+html{
+	box-sizing: border-box; 
+	font-size: 62.5%;
+}
+
+*, *:before, *:after{
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+/*utils*/
+.margin-bot{
+    margin-bottom: 2rem;
+}
+.retrato{
+    padding: 1rem;
+    background-color: white;
+    border: 2px solid black;
+}
+.text-center{
+    text-align: center;
+}

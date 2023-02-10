@@ -1,0 +1,17 @@
+.poblacion{
+    width: 50rem
+}
+.poblacion__seccion{
+    text-align: center;
+}
+.poblacion__cantidad{
+    text-align: center;
+    width: 50rem
+}
+.poblacion__numero{
+    font-size: 2.4rem;
+}
+.poblacion__nombre{
+    text-align: right;
+    font-size: 1rem;
+}

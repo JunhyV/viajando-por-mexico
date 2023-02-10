@@ -1,0 +1,21 @@
+.estado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.estado__contenido{
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.estado__info{
+    width: 60rem;
+}
+
+.municipio{
+    margin-left: 2rem;
+}
+.estado__img{
+    max-width: 40rem;
+}
