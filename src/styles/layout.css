@@ -13,4 +13,5 @@
     background-color: var(--white);
     padding: 2rem;
     width: 104rem;
+    min-height: 78.5rem;
 }

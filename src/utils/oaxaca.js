@@ -21,6 +21,7 @@ import sherlyn from '../assets/oaxaca/sherlyn.jpg'
 import ariana from '../assets/oaxaca/ariana.jpg'
 import natalia from '../assets/oaxaca/natalia.jpg'
 import teamoaxaca from '../assets/oaxaca/teamoaxaca.jpg'
+import graficaOA from '../assets/oaxaca/graficaOA.jpg'
 
 
 export const infoOaxaca = {
@@ -39,6 +40,7 @@ export const infoOaxaca = {
         numero: '4,132,148',
         nombre: 'cuatro milllone ciento treinta y dos mi ciento ccuarenta y hocho',
     },
+    grafica: graficaOA,
     fauna: [
         {
             nombre: 'puerco espin',

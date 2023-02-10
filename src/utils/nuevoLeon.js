@@ -20,6 +20,7 @@ import yacob from "../assets/nuevoLeon/yacob.jpg";
 import antonio from "../assets/nuevoLeon/antonio.jpg";
 import iker from "../assets/nuevoLeon/iker.jpg";
 import teamnuevoleon from "../assets/nuevoLeon/teamnuevoleon.jpg";
+import graficaNL from "../assets/nuevoLeon/graficaNL.jpg";
 
 
 export const infoNuevoLeon = {
@@ -38,6 +39,7 @@ export const infoNuevoLeon = {
         numero: '5 784 000',
         nombre: 'cinco millones setecien cinco millones y cuatro mil ',
     },
+    grafica: graficaNL,
     fauna: [
         {
             nombre: 'rata canguro',

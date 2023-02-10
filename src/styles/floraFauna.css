@@ -13,6 +13,7 @@
     grid: repeat(3, 1fr) / repeat(4, 1fr);
     gap: 2rem;
     align-items: center;
+    justify-items: center;
     grid-auto-flow: dense;
 }
 .floraFauna__card{

@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .integrantes__seccion{
-    width: 40rem;
+    width: 30rem;
     border-radius: 2rem;
 }
-.intengrantes__slice{
+.team__slice{
     width: 50rem;
     display: flex;
     overflow-x: scroll;
@@ -26,4 +27,13 @@
     height: 15rem;
     border-radius: 50%;
     margin-left: 5rem;
+}
+.team{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.team__img{
+    width: 40rem;
+    border: 5px solid;
 }

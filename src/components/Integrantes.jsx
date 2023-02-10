@@ -1,13 +1,18 @@
 import React from "react";
-import title from '../assets/extras/miembros.png'
+import title from "../assets/extras/miembros.png";
 import "../styles/integrantes.css";
 
 const Integrantes = ({ data }) => {
-  const { integrantes } = data;
+  const { integrantes, team } = data;
   return (
     <div className="integrantes">
-        <img className="integrantes__seccion margin-bot" src={title} alt="integrantes-logo" />
-      <div className="intengrantes__slice">
+      <img
+        className="integrantes__seccion margin-bot"
+        src={title}
+        alt="integrantes-logo"
+      />
+      <div className="team">
+              <div className="team__slice">
         {integrantes.map((pj, i) => (
           <div className="integrante__card">
             <img src={pj.img} alt="pj-img" className="integrante__img" />
@@ -16,6 +21,9 @@ const Integrantes = ({ data }) => {
           </div>
         ))}
       </div>
+      <img className="team__img" src={team} alt="team-img" />
+      </div>
+
     </div>
   );
 };

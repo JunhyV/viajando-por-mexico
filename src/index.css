@@ -36,3 +36,21 @@ body{
 .text-center{
     text-align: center;
 }
+.colima{
+    background-color: var(--colima);
+}
+.oaxaca{
+    background-color: var(--oaxaca);
+}
+.michoacan{
+    background-color: var(--michoacan);
+}
+.zacatecas{
+    background-color: var(--zacatecas);
+}
+.hidalgo{
+    background-color: var(--hidalgo);
+}
+.nuevoLeon{
+    background-color: var(--nuevoLeon);
+}
