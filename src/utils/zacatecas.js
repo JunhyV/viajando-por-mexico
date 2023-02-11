@@ -5,13 +5,13 @@ import zacatecasMapa from "../assets/zacatecas/zacatecas-mapa.png";
 export const infoZacatecas = {
     nombre: 'Zacatecas',
     name: 'zacatecas',
-    sobre: '',
+    sobre: ' zacateca ses un lugar bellisimo don de que sas ermosas don ases mochas actibidas',
     municipios: {
-        1: '',
-        2: '',
-        3: '',
-        4: '',
-        5: '',
+        1: 'aposol', 
+        2: 'apulco ',
+        3: 'atoninga ',
+        4: 'benito juares ',
+        5: 'selela ',
     },
     mapa: zacatecasMapa,
     poblacion: {
@@ -20,75 +20,75 @@ export const infoZacatecas = {
     },
     fauna: [
         {
-            nombre: '',
+            nombre: 'vibora',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'liebre',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'zorra',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'puma',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'rata',
             img: '',
         },
     ],
     flora: [
         {
-            nombre: '',
+            nombre: 'pirul',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'cedron',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'pino azul',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'heno',
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'gobernadora',
             img: '',
         },
     ],
     turismo: [
         {
-            nombre: '',
-            actividades: {
-                1: '',
-                2: '',
-                3: '',
+            nombre: 'galeria de nacimiento ',
+            actividades: { 
+                1: 'recorren el lugar',
+                2: 'toman fotos',
+                3: 'decoran algunos nacimientos',
             },
             img: '',
         },
         {
-            nombre: '',
+            nombre: 'pamo historia ',
             actividades: {
-                1: '',
-                2: '',
+                1: 'recoren el museo',
+                2: 'ver toda la historia de zacatecas durante el tiempo',
                 3: '',
             },
             img: '',
         },
     ],
     regionalismos: {
-        1: '',
-        2: '',
-        3: '',
-        4: '',
-        5: '',
-        definicion: '',
+        1: ' trochle: embrabado',
+        2: ' reborojo:mesclado ',
+        3: ' embrabado:abrasar ',
+        4: ' colorete: lavial',
+        5: ' masmejor: algovueno',
+        definicion: 'palabra expleccion ogilo o de lengua la velidad lengustica de una resion determinada',
     },
     collage: '',
     monumentos: {

@@ -1,34 +1,50 @@
-.turismo{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.turismo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.turismo__seccion{
-    width: 40rem;
+.turismo__seccion {
+  width: 40rem;
 }
-.turismo__cards{
-    display: grid;
-    grid: repeat(2, 1fr) / repeat(2, 1fr); 
-    gap: 2rem;
+.turismo__cards {
+  display: grid;
+  grid: repeat(2, 1fr) / 75rem;
+  gap: 2rem;
 }
-.turismo__cards div:nth-child(2){
-    grid-column: 2/3;
-    grid-row: 2/3;
+.turismo__cards div:nth-child(2) {
+  justify-self: end;
 }
-.turismo__card{
-    display: flex;
-    gap: 1rem;
+.turismo__card {
+  width: 45rem;
+  display: flex;
+  gap: 1rem;
 }
-.turismo__contenido{
-    height: 100%;
+.turismo__contenido {
+  height: 100%;
 }
-.turismo__actividades{
-    margin-left: 2rem;
-    margin-bottom: 1rem;
+.turismo__actividades {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
 }
-.turismo__img{
-    width: 28rem;
-    border-radius: 3rem;
+.turismo__img {
+  width: 28rem;
+  border-radius: 3rem;
+}
+
+@media (max-width: 767px) {
+  .turismo__seccion {
+    width: 25rem;
+  }
+  .turismo__cards {
+    grid: repeat(2, 1fr) / 37rem;
+  }
+  .turismo__img {
+    width: 20rem;
+  }
+  .turismo__card {
+    width: 37rem;
+  }
+  
 }

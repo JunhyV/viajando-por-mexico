@@ -1,5 +1,7 @@
 .estado{
+    width: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -9,13 +11,16 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.estado__info{
+.estado__info, .estado__img{
     width: 60rem;
 }
 
 .municipio{
     margin-left: 2rem;
 }
-.estado__img{
-    max-width: 40rem;
+
+@media (max-width: 767px){
+   .estado__info, .estado__img{
+    width: 37rem;
+   }
 }

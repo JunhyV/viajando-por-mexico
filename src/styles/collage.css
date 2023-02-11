@@ -1,3 +1,8 @@
 .collage{
-    width: 80rem;
+    width: 60rem;
+}
+@media (max-width: 767px){
+   .collage{
+    width: 37rem;
+   }
 }

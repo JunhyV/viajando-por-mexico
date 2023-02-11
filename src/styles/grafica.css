@@ -1,4 +1,10 @@
 .grafica{
-    width: 80rem;
+    width: 60rem;
     padding: 4rem;
+}
+@media (max-width: 767px){
+    .grafica{
+        width: 37rem;
+        padding: 2rem;
+    }
 }

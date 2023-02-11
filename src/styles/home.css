@@ -4,3 +4,8 @@
 .saludo__img{
     width: 80rem;
 }
+@media (max-width: 767px){
+   .saludo__img{
+    width: 37rem;
+   }
+}

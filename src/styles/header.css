@@ -3,7 +3,6 @@
     background-color: var(--black);
     display: flex;
     justify-content: flex-end;
-
 }
 .nav__link{
     display: flex;
@@ -16,4 +15,15 @@
 
 .nav__link:hover{
     background-color: orange;
+}
+
+@media (max-width: 767px){
+   .nav{
+    display: grid;
+    grid: repeat(2, 1fr)/repeat(3,1fr);
+   }
+   .nav__link{
+    width: 100%;
+    justify-content: center;
+   }
 }
