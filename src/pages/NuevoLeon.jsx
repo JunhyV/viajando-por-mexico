@@ -8,6 +8,7 @@ import Integrantes from "../components/Integrantes";
 import { infoNuevoLeon } from '../utils/nuevoLeon';
 import Grafica from '../components/Grafica';
 import Collage from '../components/Collage';
+import Footer from '../components/Footer';
 
 const NuevoLeon = () => {
   const {nombre} = infoNuevoLeon;
@@ -22,6 +23,7 @@ const NuevoLeon = () => {
       <Turismo data={infoNuevoLeon}/>
       <Regionalismos data={infoNuevoLeon}/>
       <Integrantes data={infoNuevoLeon}/>
+      <Footer />
     </>
   )
 }

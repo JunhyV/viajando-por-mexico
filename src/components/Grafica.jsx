@@ -1,12 +1,18 @@
-import React from 'react'
-import '../styles/grafica.css'
+import React from "react";
+import "../styles/grafica.css";
 
-const Grafica = ({data}) => {
-    const {name, grafica} = data;
+const Grafica = ({ data }) => {
+  const { name, grafica } = data;
 
   return (
-    <img className={`grafica ${name} margin-bot`} src={grafica} alt="grafica" />
-  )
-}
+    <div className="zoom">
+      <img
+        className={`grafica ${name}`}
+        src={grafica}
+        alt="grafica"
+      />
+    </div>
+  );
+};
 
-export default Grafica
+export default Grafica;

@@ -6,6 +6,7 @@ import Regionalismos from "../components/Regionalismos";
 import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoMichoacan } from '../utils/michoacan';
+import Footer from '../components/Footer';
 
 const Michoacan = () => {
   const {nombre} = infoMichoacan; 
@@ -18,6 +19,7 @@ const Michoacan = () => {
       <Turismo data={infoMichoacan}/>
       <Regionalismos data={infoMichoacan}/>
       <Integrantes data={infoMichoacan}/>
+      <Footer />
     </>
   )
 }

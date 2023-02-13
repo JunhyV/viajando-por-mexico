@@ -54,3 +54,18 @@ body{
 .nuevoLeon{
     background-color: var(--nuevoLeon);
 }
+
+.zoom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+    overflow: hidden;
+}
+.zoom img{
+    transition: transform .5s;
+}
+
+.zoom:hover img{
+    transform: scale(1.12);
+}

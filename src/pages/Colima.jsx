@@ -6,6 +6,7 @@ import Regionalismos from "../components/Regionalismos";
 import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoColima } from "../utils/colima";
+import Footer from "../components/Footer";
 
 const Colima = () => {
   const {nombre} = infoColima;
@@ -17,6 +18,7 @@ const Colima = () => {
       <FloraFauna data={infoColima}/>
       <Turismo data={infoColima}/>
       <Regionalismos data={infoColima}/>
+      <Footer />
     </>
   );
 };

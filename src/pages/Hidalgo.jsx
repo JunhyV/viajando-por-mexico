@@ -6,6 +6,7 @@ import Regionalismos from "../components/Regionalismos";
 import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoHidalgo } from '../utils/hidalgo';
+import Footer from '../components/Footer';
 
 const Hidalgo = () => {
   const {nombre} = infoHidalgo;
@@ -18,6 +19,7 @@ const Hidalgo = () => {
       <Turismo data={infoHidalgo}/>
       <Regionalismos data={infoHidalgo}/>
       <Integrantes data={infoHidalgo}/>
+      <Footer />
     </>
   )
 }

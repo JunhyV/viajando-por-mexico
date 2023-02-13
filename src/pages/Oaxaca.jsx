@@ -2,6 +2,7 @@ import React from "react";
 import Collage from "../components/Collage";
 import Estado from "../components/Estado";
 import FloraFauna from "../components/FloraFauna";
+import Footer from "../components/Footer";
 import Grafica from "../components/Grafica";
 import Integrantes from "../components/Integrantes";
 import Poblacion from "../components/Poblacion";
@@ -23,6 +24,7 @@ const Oaxaca = () => {
       <Turismo data={infoOaxaca} />
       <Regionalismos data={infoOaxaca} />
       <Integrantes data={infoOaxaca}/>
+      <Footer />
     </>
   );
 };

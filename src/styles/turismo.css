@@ -20,6 +20,11 @@
   width: 45rem;
   display: flex;
   gap: 1rem;
+  transition: transform .5s;
+}
+.turismo__card:hover{
+  transform: scale(1.12);
+  cursor: pointer;
 }
 .turismo__contenido {
   height: 100%;
@@ -29,7 +34,7 @@
   margin-bottom: 1rem;
 }
 .turismo__img {
-  width: 28rem;
+  width: 25rem;
   border-radius: 3rem;
 }
 
@@ -39,12 +44,18 @@
   }
   .turismo__cards {
     grid: repeat(2, 1fr) / 37rem;
+    justify-items: center;
+  }
+  .turismo__cards div:nth-child(2) {
+    justify-self: center;
   }
   .turismo__img {
     width: 20rem;
   }
   .turismo__card {
-    width: 37rem;
+    width: 35rem;
   }
-  
+  .turismo__card:hover{
+    transform: scale(1.1);
+  }
 }

@@ -5,7 +5,10 @@ const Collage = ({data}) => {
     const {collage} = data;
 
   return (
-    <img className='collage margin-bot' src={collage} alt="collage" />
+    <div className='zoom'>
+      <img className='collage' src={collage} alt="collage" />
+    </div>
+
   )
 }
 

@@ -6,6 +6,7 @@ import Regionalismos from "../components/Regionalismos";
 import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoZacatecas } from '../utils/zacatecas';
+import Footer from '../components/Footer';
 
 const Zacatecas = () => {
   const {nombre} = infoZacatecas;
@@ -18,6 +19,7 @@ const Zacatecas = () => {
       <Turismo data={infoZacatecas}/>
       <Regionalismos data={infoZacatecas}/>
       <Integrantes data={infoZacatecas}/>
+      <Footer />
     </>
   )
 }

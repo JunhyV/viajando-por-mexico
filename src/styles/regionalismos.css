@@ -2,7 +2,6 @@
   display: grid;
   justify-items: center;
   grid: repeat(2, 1fr) / repeat(5, 1fr);
-  gap: 2rem;
 }
 .regionalismos__grid p:nth-child(2) {
   grid-row: 2 / 3;
@@ -29,6 +28,11 @@
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
+  transition: transform .5s;
+}
+
+.regionalismos_ejemplo:hover{
+  transform: scale(1.3);
 }
 .regionalismos__grid .nuevoLeon {
   color: var(--white);

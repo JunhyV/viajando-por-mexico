@@ -4,7 +4,7 @@ import "../styles/estado.css";
 const Estado = ({ data }) => {
   const { nombre, sobre, municipios, mapa } = data;
   return (
-    <div className="estado margin-bot" >
+    <div className="estado margin-bot">
       <div className="estado__contenido">
         <h2 className="estado__seccion">Sobre {nombre}...</h2>
         <p className="estado__info">{sobre}</p>
@@ -17,7 +17,9 @@ const Estado = ({ data }) => {
           <li className="municipio">{municipios[5]}</li>
         </ul>
       </div>
-      <img className="estado__img" src={mapa} alt="mapa-estado" />
+      <div className="zoom">
+        <img className="estado__img" src={mapa} alt="mapa-estado" />
+      </div>
     </div>
   );
 };
