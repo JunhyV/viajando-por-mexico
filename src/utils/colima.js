@@ -9,7 +9,7 @@ import nance from "../assets/colima/nance.jpeg";
 import ocelote from "../assets/colima/ocelote.jpg";
 import palmera from "../assets/colima/palmera.jpg";
 import pezEspada from "../assets/colima/pez-espada.jpeg";
-import primavera from "../assets/colima/ardilla.jpg";
+import primavera from "../assets/colima/primavera.jpg";
 import rutaCafe from "../assets/colima/ruta-cafe.jpg";
 import maestro from "../assets/colima/maestro.jpg";
 import monumento from "../assets/colima/torito.jpeg";

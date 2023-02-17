@@ -17,7 +17,7 @@ const Integrantes = ({ data }) => {
           <div key={i} className={`integrante__card ${name}`}>
             <img src={pj.img} alt="pj-img" className="integrante__img" />
             <h3 className="integrante__name">{pj.nombre}</h3>
-            <p className="integrante__description">{pj.descripcion}</p>
+            <p className="integrante__hobby">{pj.hobby}</p>
           </div>
         ))}
       </div>

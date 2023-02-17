@@ -124,17 +124,17 @@ export const infoOaxaca = {
     integrantes: [
         {
             nombre: 'Fatima',
-            hobby: '',
+            hobby: 'bailar banda y folklore, jugar roblox y maquillarme',
             img: fatima,
         },
         {
             nombre: 'Melany',
-            hobby: '',
+            hobby: 'Me gusta saltar la soga, jugar roblox y bailar musica de tik tok',
             img: melany,
         },
         {
             nombre: 'Natalia',
-            hobby: '',
+            hobby: 'bailar tik toks con mis primos, jugar juegos de belleza y ver el videos en el celular',
             img: natalia,
         },
         {
@@ -144,13 +144,18 @@ export const infoOaxaca = {
         },
         {
             nombre: 'Sherlyn',
-            hobby: '',
+            hobby: 'Me gusta bailar banda, me gusta jugar free fire e ir a fiestas con mis papas',
             img: sherlyn,
         },
         {
             nombre: 'Ariana',
-            hobby: '',
+            hobby: 'juego con mis primos futbol y free fire, me gusta salir a las fiestas o al parque y tengo 9 años',
             img: ariana,
+        },
+        {
+            nombre: 'Allison',
+            hobby: 'Me gusta bailar banda, tambien jugar freeFire y tambien salir de paseo con mi mama',
+            img: '',
         },
     ],
     team: teamoaxaca,

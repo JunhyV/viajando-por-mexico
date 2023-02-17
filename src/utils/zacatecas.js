@@ -1,6 +1,27 @@
 /* import img from '../assets/' */
 import logo from '../assets/zacatecas/zacatecas-logo.webp';
 import zacatecasMapa from "../assets/zacatecas/zacatecas-mapa.png";
+import cedron from '../assets/zacatecas/cedron.jpg'
+import gobernadora from '../assets/zacatecas/gobernadora.jpeg'
+import heno from '../assets/zacatecas/heno.jpeg'
+import liebre from '../assets/zacatecas/liebre.jpg'
+import pinoAzul from '../assets/zacatecas/pinoAzul.jpg'
+import pirul from '../assets/zacatecas/pirul.jpg'
+import puma from '../assets/zacatecas/puma.jpg'
+import rata from '../assets/zacatecas/rata.png'
+import vibora from '../assets/zacatecas/vibora.jpeg'
+import zorra from '../assets/zacatecas/zorra.jpg'
+import graficaZA from '../assets/zacatecas/graficaZA.jpg'
+import collage from '../assets/zacatecas/zacatecas.jpg'
+import galeria from '../assets/zacatecas/galeria.jpg'
+import museo from '../assets/zacatecas/museo.jpg'
+import camilo from '../assets/zacatecas/camilo.jpg'
+import ashley from '../assets/zacatecas/ashley.jpg'
+import donovan from '../assets/zacatecas/donovan.jpg'
+import kendra from '../assets/zacatecas/kendra.jpg'
+import jade from '../assets/zacatecas/jade.jpg'
+import dan from '../assets/zacatecas/dan.jpg'
+import teamzacatecas from '../assets/zacatecas/teamzacatecas.jpg'
 
 export const infoZacatecas = {
     nombre: 'Zacatecas',
@@ -18,48 +39,49 @@ export const infoZacatecas = {
         numero: '',
         nombre: '',
     },
+    grafica: graficaZA,
     fauna: [
         {
             nombre: 'vibora',
-            img: '',
+            img: vibora,
         },
         {
             nombre: 'liebre',
-            img: '',
+            img: liebre,
         },
         {
             nombre: 'zorra',
-            img: '',
+            img: zorra,
         },
         {
             nombre: 'puma',
-            img: '',
+            img: puma,
         },
         {
             nombre: 'rata',
-            img: '',
+            img: rata,
         },
     ],
     flora: [
         {
             nombre: 'pirul',
-            img: '',
+            img: pirul,
         },
         {
             nombre: 'cedron',
-            img: '',
+            img: cedron,
         },
         {
             nombre: 'pino azul',
-            img: '',
+            img: pinoAzul,
         },
         {
             nombre: 'heno',
-            img: '',
+            img: heno,
         },
         {
             nombre: 'gobernadora',
-            img: '',
+            img: gobernadora,
         },
     ],
     turismo: [
@@ -70,7 +92,7 @@ export const infoZacatecas = {
                 2: 'toman fotos',
                 3: 'decoran algunos nacimientos',
             },
-            img: '',
+            img: galeria,
         },
         {
             nombre: 'pamo historia ',
@@ -79,18 +101,18 @@ export const infoZacatecas = {
                 2: 'ver toda la historia de zacatecas durante el tiempo',
                 3: '',
             },
-            img: '',
+            img: museo,
         },
     ],
     regionalismos: {
         1: ' trochle: embrabado',
-        2: ' reborojo:mesclado ',
-        3: ' embrabado:abrasar ',
+        2: ' reborojo: mesclado ',
+        3: ' embrabado: abrasar ',
         4: ' colorete: lavial',
         5: ' masmejor: algovueno',
         definicion: 'palabra expleccion ogilo o de lengua la velidad lengustica de una resion determinada',
     },
-    collage: '',
+    collage: collage,
     monumentos: {
         1: '',
         2: '',
@@ -100,31 +122,36 @@ export const infoZacatecas = {
     },
     integrantes: [
         {
-            nombre: '',
-            hobby: '',
-            img: '',
+            nombre: 'donovan',
+            hobby: 'me gusta estudiar, leer y jugar minecraft o freefire',
+            img: donovan,
         },
         {
-            nombre: '',
-            hobby: '',
-            img: '',
+            nombre: 'jade',
+            hobby: 'me gusta pintar, jugar futbol y tambien me gusta leer',
+            img: jade,
         },
         {
-            nombre: '',
-            hobby: '',
-            img: '',
+            nombre: 'dan',
+            hobby: 'me gusta jugar futbol, dibujar y hablar con mi mama',
+            img: dan,
         },
         {
-            nombre: '',
-            hobby: '',
-            img: '',
+            nombre: 'ashley',
+            hobby: 'me gusta jugar futbol, tambien pintar y leer',
+            img: ashley,
         },
         {
-            nombre: '',
-            hobby: '',
-            img: '',
+            nombre: 'camilo',
+            hobby: 'me gusta jugar videojuegos, estudiar y comer tacos',
+            img: camilo,
+        },
+        {
+            nombre: 'kendra',
+            hobby: 'me gusta jugar mango resbaloso, tambien dibujar y leer',
+            img: kendra,
         },
     ],
-    team: '',
+    team: teamzacatecas,
     logo: logo,
 }

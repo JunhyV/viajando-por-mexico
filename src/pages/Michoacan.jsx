@@ -7,6 +7,8 @@ import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoMichoacan } from '../utils/michoacan';
 import Footer from '../components/Footer';
+import Grafica from '../components/Grafica';
+import Collage from '../components/Collage';
 
 const Michoacan = () => {
   const {nombre} = infoMichoacan; 
@@ -15,7 +17,9 @@ const Michoacan = () => {
       <h1 className="equipo__estado">{nombre}</h1>
       <Estado data={infoMichoacan}/>
       <Poblacion data={infoMichoacan}/>
+      <Grafica data={infoMichoacan}/>
       <FloraFauna data={infoMichoacan}/>
+      <Collage data={infoMichoacan}/>
       <Turismo data={infoMichoacan}/>
       <Regionalismos data={infoMichoacan}/>
       <Integrantes data={infoMichoacan}/>

@@ -7,6 +7,8 @@ import Turismo from "../components/Turismo";
 import Integrantes from "../components/Integrantes";
 import { infoZacatecas } from '../utils/zacatecas';
 import Footer from '../components/Footer';
+import Grafica from '../components/Grafica';
+import Collage from '../components/Collage';
 
 const Zacatecas = () => {
   const {nombre} = infoZacatecas;
@@ -15,7 +17,9 @@ const Zacatecas = () => {
       <h1 className="equipo__estado">{nombre}</h1>
       <Estado data={infoZacatecas}/>
       <Poblacion data={infoZacatecas}/>
+      <Grafica data={infoZacatecas}/>
       <FloraFauna data={infoZacatecas}/>
+      <Collage data={infoZacatecas}/>
       <Turismo data={infoZacatecas}/>
       <Regionalismos data={infoZacatecas}/>
       <Integrantes data={infoZacatecas}/>

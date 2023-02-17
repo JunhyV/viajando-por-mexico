@@ -105,7 +105,7 @@ export const infoNuevoLeon = {
         },
     ],
     regionalismos: {
-        1: 'te la bañaste: rraspado',
+        1: 'luki: rraspado',
         2: 'feria: dinero',
         3: 'jale: trabajo',
         4: 'te la bañasteÑ te pasaste',
@@ -128,23 +128,28 @@ export const infoNuevoLeon = {
         },
         {
             nombre: 'Iker',
-            hobby: '',
+            hobby: 'Jugar futbol con mi hermano, ver peliculas y escuchar musica',
             img: iker,
         },
         {
             nombre: 'Saúl',
-            hobby: '',
+            hobby: 'veo peliculas, escucho musica y juego free fire',
             img: saul,
         },
         {
             nombre: 'Yacob',
-            hobby: '',
+            hobby: 'me gusta jugar futbol, ver peliculas y jugar free fire',
             img: yacob,
         },
         {
             nombre: 'Antonio',
-            hobby: '',
+            hobby: 'ver peliculas, jugar con el celular y jugar futbol con mis amigos',
             img: antonio,
+        },
+        {
+            nombre: 'Joshua',
+            hobby: 'jugar futbol con mi tio o mi hermano en la play, escuchar musica y ver videos en youtube',
+            img: '',
         },
     ],
     team: teamnuevoleon,

@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+width: 100%;
 }
 .integrantes__seccion{
     width: 30rem;
@@ -27,7 +27,6 @@
     border-radius: 3rem;
 }
 .integrante__card:hover{
-    background-color: rgba(138, 138, 138, 0.521);
     border-radius: 3rem;
 }
 .integrante__img{
@@ -35,7 +34,12 @@
     height: 15rem;
     border-radius: 50%;
 }
-
+.integrante__name{
+    font-style: italic;
+}
+.integrante__name, .integrante__hobby{
+    text-transform: uppercase;
+}
 .team{
     width: 100%;
     display: flex;

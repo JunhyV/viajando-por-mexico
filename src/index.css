@@ -42,18 +42,36 @@ body{
 .oaxaca{
     background-color: var(--oaxaca);
 }
+.oaxaca:hover{
+    background-color: rgb(250, 150, 0);
+}
 .michoacan{
     background-color: var(--michoacan);
+}
+.michoacan:hover{
+    background-color: rgb(179, 0, 250);
 }
 .zacatecas{
     background-color: var(--zacatecas);
 }
+.zacatecas:hover{
+    background-color: rgb(0, 250, 21);
+}
 .hidalgo{
     background-color: var(--hidalgo);
 }
+.hidalgo:hover{
+    background-color: rgb(0, 192, 250);
+}
 .nuevoLeon{
     background-color: var(--nuevoLeon);
+    color: var(--white);
 }
+.nuevoLeon:hover{
+    background-color: rgb(104, 104, 104);
+}
+
+
 
 .zoom{
     display: flex;
